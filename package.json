@@ -1,6 +1,6 @@
 {
   "name": "@melonjs/webdoc-theme",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "melonJS theme for the default webdoc template ",
   "repository": {
     "type": "git",
@@ -12,7 +12,10 @@
     "theme",
     "template"
   ],
-  "author": "Olivier Biot",
+  "author": {
+    "name": "Olivier Biot",
+    "email": "contact@melonjs.org"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/melonjs/webdoc-theme/issues"
