@@ -5,7 +5,9 @@
 }
 
 .explorer {
-  background-color: transparent;
+  background-color: #4d4d4d;
+  border-right: 8px solid var(--color-primary-text);
+  color: white;
 }
 
 .explorer__header__title {
@@ -14,14 +16,16 @@
 
 .explorer-tree__target {
   margin: 4px 0 !important;
+  color: white;
 }
 
 .explorer-tree__target > div > div:last-child {
   font-size: 0.875em !important;
+  color: white;
 }
 
-.explorer-tree__target > div > div:last-child > a {
-  color: #666 !important;
+.explorer-tree__parent > div > div:first-child > svg, .explorer-tree__target > div > div:last-child > a {
+  color: white !important;
 }
 
 .explorer-tree__selected > div > div:last-child > a {
@@ -29,12 +33,12 @@
 }
 
 .explorer-tree__parent > div > div:last-child {
-    color: black !important;
+    color: white !important;
     font-weight: 500 !important;
 }
 
 .page {
-  background: #ecedf1 0 0 repeat;
+  background: white;
 }
 
 .tutorials .page-content {
@@ -84,4 +88,32 @@
   background-color: white;
   padding: 18px;
   margin-right: 24px
+}
+
+.docs, .document, .explorer-tree__target > div > div:last-child, .page-content,.footer {
+  font-family: "Droid Sans", Tahoma, "Lucida Grande", sans-serif, "Helvetica Neue", Helvetica, Arial, "Malgun gothic", 돋움, AppleSDGothicNeo;
+}
+
+.signature, code {
+  font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+.footer {
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  margin: 0 !important;
+}
+
+.footer__container {
+  margin: 0;
+  padding: 4px 12px 4px 4px;
+  font-size: .8em;
+}
+
+.footer__container a {
+  color: inherit;
+  text-decoration: underline;
 }

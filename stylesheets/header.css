@@ -1,15 +1,11 @@
-.header__container {
-  backdrop-filter: none;
-}
-
 .header {
-  box-shadow: 0 0 5px 0 rgb(0 0 0 / 35%);
-  height: 62px;
-  min-height: 60px;
+  height: 36px;
+  min-height: 32px;
 }
 
-.header__contents {
-  backdrop-filter: none;
+.explorer__header__title {
+  font-size: 18px;
+  font-weight: lighter;
 }
 
 .header__link {
